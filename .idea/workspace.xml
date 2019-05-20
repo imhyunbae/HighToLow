@@ -2,33 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d185b3fa-5e6e-4bd7-bfc7-39309c08b782" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_head/eyes_l.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_head/eyes_r.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_head/face.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_head/mouth.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_head/neck.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_0.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_1.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_10.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_11.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_12.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_13.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_14.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_15.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_16.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_17.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_18.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_19.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_2.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_3.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_4.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_5.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_6.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_7.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_8.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ear_set/ear_9.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wrap.blend" beforeDir="false" afterPath="$PROJECT_DIR$/wrap.blend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wrap.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/wrap.blend1" afterDir="false" />
@@ -44,35 +17,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="998">
+              <caret line="191" column="41" lean-forward="true" selection-start-line="191" selection-start-column="41" selection-end-line="191" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datas/high_low_map.txt">
+        <entry file="file://$PROJECT_DIR$/outputs/cjs.obj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2603">
-              <caret line="137" column="9" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="9" />
+            <state relative-caret-position="10435">
+              <caret line="6285" column="22" selection-start-line="6285" selection-start-column="22" selection-end-line="6285" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datas/ear_inside.txt">
+        <entry file="file://$PROJECT_DIR$/datas/mouth.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/_methods.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="247">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -88,16 +52,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>981</find>
-      <find>-26.8949</find>
-      <find>1136</find>
-      <find>-24.2049</find>
-      <find>1132 4</find>
-      <find>1133</find>
-      <find>-22.2508</find>
-      <find>11</find>
-      <find>1134</find>
-      <find>-20.4267</find>
       <find>-20.78896</find>
       <find>-20.7889</find>
       <find>1384</find>
@@ -116,8 +70,18 @@
       <find>eyes.t</find>
       <find>in high_low_</find>
       <find>ear_set</find>
-      <find>default</find>
       <find>defa</find>
+      <find>default</find>
+      <find>jeong</find>
+      <find>left_ear</find>
+      <find>map.</find>
+      <find>map.t</find>
+      <find>low_eyelids_indices</find>
+      <find>low_index</find>
+      <find>scale</find>
+      <find>low_eyelids</find>
+      <find>mouth_face</find>
+      <find>neck</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,6 +100,7 @@
         <option value="$PROJECT_DIR$/ear_set/ear_0.obj" />
         <option value="$PROJECT_DIR$/datas/ear_border.txt" />
         <option value="$PROJECT_DIR$/datas/ear_inside.txt" />
+        <option value="$PROJECT_DIR$/datas/default_head/face.obj" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
@@ -168,12 +133,13 @@
             <path>
               <item name="P9" type="b2602c69:ProjectViewProjectNode" />
               <item name="P9" type="462c0819:PsiDirectoryNode" />
-              <item name="inputs" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="default_head" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P9" type="b2602c69:ProjectViewProjectNode" />
               <item name="P9" type="462c0819:PsiDirectoryNode" />
-              <item name="jeongkeunwoo" type="462c0819:PsiDirectoryNode" />
+              <item name="inputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="P9" type="b2602c69:ProjectViewProjectNode" />
@@ -278,16 +244,15 @@
       <workItem from="1557818434273" duration="27252000" />
       <workItem from="1557971038560" duration="31424000" />
       <workItem from="1558314691239" duration="144000" />
-      <workItem from="1558314913967" duration="187000" />
+      <workItem from="1558314913967" duration="13314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59007000" />
+    <option name="totallyTimeSpent" value="72134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-143" width="1216" height="1896" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22664359" />
@@ -316,21 +281,59 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="np.mean(low_eyelids, axis=0)" language="Python" />
-        <watch expression="np.mean(high_eyelids, axis=0)" language="Python" />
-        <watch expression="np.std([low_eyelid[0] for low_eyelid in low_eyelids])" language="Python" />
-        <watch expression="np.std([high_eyelid[0] for high_eyelid in high_eyelids])" language="Python" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/P9$util.coverage" NAME="util Coverage Results" MODIFIED="1558051909266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P9$main.coverage" NAME="main Coverage Results" MODIFIED="1558315160876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P9$main.coverage" NAME="main Coverage Results" MODIFIED="1558330108295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>mouth_face[0] &gt; 600</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mouth_face.any() &gt; 600</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>if mouth_face.any()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>[[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in eye_l if line[:2] == 'f ']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[[float(element) for element in line[:-1].split(' ')[2:]] for line in eye_l if line[:2] == 'v ']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[line[:-1].split(' ')[2:] for line in eye_l if line[:2] == 'v ']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[line[:-1].split(' ')[1:] for line in eye_l if line[:2] == 'v ']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>np.std([high_eyelid[0] for high_eyelid in high_eyelids])</expression-string>
         <language-id>Python</language-id>
@@ -358,26 +361,6 @@
       </expression>
       <expression>
         <expression-string>np.std([high_eyelid for high_eyelid in high_eyelids if high_eyelid[0] &gt; 0])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>np.std([low_eyelid for low_eyelid in low_eyelids if low_eyelid[0] &gt; 0])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>np.std([for low_eyelid in low_eyelids if low_eyelid[0] &gt; 0])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>np.std(high_eyelids)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>np.std(low_eyelids)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -516,17 +499,10 @@
     <entry file="file://$PROJECT_DIR$/datas/inner_eyes.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/high_low_map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2603">
-          <caret line="137" column="9" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="9" />
+        <state relative-caret-position="874">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -537,10 +513,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/_methods.py">
+    <entry file="file://$PROJECT_DIR$/datas/high_low_map.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="996">
+          <caret line="137" column="9" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wrap.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4005" column="20" lean-forward="true" selection-start-line="4005" selection-start-column="20" selection-end-line="4005" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/default_head/face.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="996">
+          <caret line="4140" column="29" lean-forward="true" selection-start-line="4140" selection-start-column="23" selection-end-line="4140" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/cjs.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10435">
+          <caret line="6285" column="22" selection-start-line="6285" selection-start-column="22" selection-end-line="6285" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/mouth.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="191" column="41" lean-forward="true" selection-start-line="191" selection-start-column="41" selection-end-line="191" selection-end-column="41" />
         </state>
       </provider>
     </entry>
