@@ -1,15 +1,15 @@
 import numpy as np
 
 # Parameter
-ear_index = 3
-high_name = 'choo.obj'
+ear_index = 15
+high_name = 'lsy.obj'
 
 # Load
 high = open('./inputs/{}'.format(high_name), 'r').readlines()
 # high = open('./datas/high.ply', 'r').readlines()
 high_vertices = [[float(element) for element in line[:-1].split(' ')[1:]] for line in high if line[:2] == 'v ']
 # high_vertices = [[float(element) for element in each[:-1].split(' ')][:3] for each in high[14:14+53149]]
-low = open('./default_head/face.obj', 'r').readlines()
+low = open('./datas/default_head/face.obj', 'r').readlines()
 low_vertices = [[float(element) for element in line[:-1].split(' ')[2:]] for line in low if line[:3] == 'v  ']
 # low_vertices = [[float(element) for element in line[:-1].split(' ')[:3]] for line in low[14:14+2026]]
 low_faces = [[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in low if line[:2] == 'f ']
@@ -25,7 +25,7 @@ with open('./datas/high_low_map.txt') as mapping:
         low_vertices[low_index] = high_vertices[high_index]
 
 # Ear: high 와 low 의 ear border 의 표준편차를 활용해 scaling 후 ear border 의 평균값을 기준으로 ear inside 를 translation
-with open('./ear_set/ear_{}.obj'.format(ear_index), 'r') as ear:
+with open('./datas/ears/ear_{}.obj'.format(ear_index), 'r') as ear:
     ear_vertices = np.array([[float(element) for element in line[:-1].split(' ')[2:]] for line in ear.readlines() if line[:3] == 'v  '])
 
     ear_border_indices = [int(line[:-1]) for line in open('./datas/ear_border.txt', 'r').readlines()]
@@ -59,7 +59,7 @@ with open('./ear_set/ear_{}.obj'.format(ear_index), 'r') as ear:
         low_vertices[index] = vertex
 
 # Neck
-with open('./default_head/neck.obj', 'r') as neck:
+with open('./datas/default_head/neck.obj', 'r') as neck:
     neck = neck.readlines()
     neck_vertices = np.array([[float(element) for element in line[:-1].split(' ')[2:]] for line in neck if line[:3] == 'v  '])
     neck_faces = [[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in neck if line[:2] == 'f ']
