@@ -7,14 +7,17 @@ class Wrap:
         self.high_vertices = [[float(element) for element in line[:-1].split(' ')[1:]] for line in high if line[:2] == 'v ']
         low = open('./datas/default_head/face.obj', 'r').readlines()
         self.low_vertices = [[float(element) for element in line[:-1].split(' ')[2:]] for line in low if line[:3] == 'v  ']
-        self.low_faces = [[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in low if line[:2] == 'f ']
+        self.low_coordinates = [[float(element) for element in line[:-1].split(' ')[1:]] for line in low if line[:3] == 'vt ']
+        self.low_faces = [[[int(each) for each in index.split('/')] for index in line[:-2].split(' ')[1:]] for line in low if line[:2] == 'f ']
 
         eye_l = open('./datas/default_head/eyes_l.obj', 'r').readlines()
         self.eye_l_vertices = [[float(element) for element in line[:-1].split(' ')[2:]] for line in eye_l if line[:2] == 'v ']
-        self.eye_l_faces = [[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in eye_l if line[:2] == 'f ']
+        self.eye_l_coordinates = [[float(element) for element in line[:-1].split(' ')[1:]] for line in eye_l if line[:3] == 'vt ']
+        self.eye_l_faces = [[[int(each) for each in index.split('/')] for index in line[:-2].split(' ')[1:]] for line in eye_l if line[:2] == 'f ']
         eye_r = open('./datas/default_head/eyes_r.obj', 'r').readlines()
         self.eye_r_vertices = [[float(element) for element in line[:-1].split(' ')[2:]] for line in eye_r if line[:2] == 'v ']
-        self.eye_r_faces = [[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in eye_r if line[:2] == 'f ']
+        self.eye_r_coordinates = [[float(element) for element in line[:-1].split(' ')[1:]] for line in eye_r if line[:3] == 'vt ']
+        self.eye_r_faces = [[[int(each) for each in index.split('/')] for index in line[:-2].split(' ')[1:]] for line in eye_r if line[:2] == 'f ']
 
         self.high_low_map = np.array([[int(index) for index in line[:-1].split(' ')] for line in open('./datas/high_low_map.txt').readlines()])
 
@@ -25,7 +28,8 @@ class Wrap:
 
         mouth = open('./datas/default_head/mouth.obj', 'r').readlines()
         self.mouth_vertices = [[float(element) for element in line[:-1].split(' ')[2:]] for line in mouth if line[:2] == 'v ']
-        self.mouth_faces = [[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in mouth if line[:2] == 'f ']
+        self.mouth_coordinates = [[float(element) for element in line[:-1].split(' ')[1:]] for line in mouth if line[:3] == 'vt ']
+        self.mouth_faces = [[[int(each) for each in index.split('/')] for index in line[:-2].split(' ')[1:]] for line in mouth if line[:2] == 'f ']
 
     def face(self):
         """
@@ -74,7 +78,8 @@ class Wrap:
     def neck(self):
         neck = open('./datas/default_head/neck.obj', 'r').readlines()
         neck_vertices = np.array([[float(element) for element in line[:-1].split(' ')[2:]] for line in neck if line[:3] == 'v  '])
-        neck_faces = [[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in neck if line[:2] == 'f ']
+        neck_coordinates = [[float(element) for element in line[:-1].split(' ')[1:]] for line in neck if line[:3] == 'vt ']
+        neck_faces = [[[int(each) for each in index.split('/')] for index in line[:-2].split(' ')[1:]] for line in neck if line[:2] == 'f ']
 
         face_neck_map = np.array([[int(index) for index in line.split(', ')] for line in open('./datas/face_neck_map.txt', 'r').readlines()])
 
@@ -88,11 +93,8 @@ class Wrap:
         distance = mean_face_boundary - mean_neck_boundary
         neck_vertices += distance
 
-        for low_index, low_vertex in enumerate(self.low_vertices):
-            if low_index in face_neck_map[:, 0]:
-                index = list(face_neck_map[:, 0]).index(low_index)
-                neck_index = face_neck_map[:, 1][index]
-                self.low_vertices[low_index] = neck_vertices[neck_index]
+        for face_index, neck_index in face_neck_map:
+            self.low_vertices[face_index] = neck_vertices[neck_index]
 
         neck_map = []
         for neck_index, neck_vertex in enumerate(neck_vertices):
@@ -103,8 +105,11 @@ class Wrap:
                 neck_map.append(len(self.low_vertices))
                 self.low_vertices.append(neck_vertex)
 
+        coordinate_offset = len(self.low_coordinates)
+        self.low_coordinates += neck_coordinates
+
         for neck_face in neck_faces:
-            face = [neck_map[neck_index - 1] + 1 for neck_index in neck_face]
+            face = [[neck_map[vertex_index - 1] + 1, coordinate_index + coordinate_offset] for vertex_index, coordinate_index in neck_face]
             self.low_faces.append(face)
 
     def inner_eyes(self):
@@ -129,8 +134,6 @@ class Wrap:
         for index, inner_eye in left_inner_eyes + right_inner_eyes:
             self.low_vertices[index] = inner_eye
 
-    # inner eye 의 scale 조절 left, right 따로 해야할지 생각해보고, 그 scale 대로 eyeball 도 scale 한 후
-    # scale 전 inner eye와 eye ball의 거리 차이를 그대로 scale해서 적용
     def eye_balls(self):
         mean_left_eyeball = np.mean(self.eye_l_vertices, axis=0)
         mean_right_eyeball = np.mean(self.eye_r_vertices, axis=0)
@@ -183,30 +186,33 @@ class Wrap:
                 mouth_map.append(len(self.low_vertices))
                 self.low_vertices.append(mouth_vertex)
 
+        coordinate_offset = len(self.low_coordinates)
+        self.low_coordinates += self.mouth_coordinates
+
         for mouth_face in self.mouth_faces:
-            face = [mouth_map[mouth_index - 1] + 1 for mouth_index in mouth_face]
+            face = [[mouth_map[vertex_index - 1] + 1, coordinate_index + coordinate_offset] for vertex_index, coordinate_index in mouth_face]
             self.low_faces.append(face)
 
     def save(self, output_path):
-        def write_vertices_face(output, name, vertices, faces, o):
+        def write_vertices_face(output, name, vertices, coordinates, faces, vo, vto):
             # output.write('o {}\n'.format(name))
 
-            for vertex in vertices:
-                output.write('v  {} {} {}\n'.format(vertex[0], vertex[1], vertex[2]))
+            [output.write('v  {} {} {}\n'.format(vertex[0], vertex[1], vertex[2])) for vertex in vertices]
+            [output.write('vt {} {} {}\n'.format(coordinate[0], coordinate[1], coordinate[2])) for coordinate in coordinates]
 
             for face in faces:
-                if len(face) == 4:
-                    output.write('f {} {} {} {} \n'.format(face[0] + o, face[1] + o, face[2] + o, face[3] + o))
-                if len(face) == 3:
-                    output.write('f {} {} {} \n'.format(face[0] + o, face[1] + o, face[2] + o))
+                line = 'f'
+                for vertex_index, coordinate_index in face:
+                    line += ' {}/{}'.format(vertex_index + vo, coordinate_index + vto)
+                output.write(line + '\n')
 
         with open('./outputs/{}'.format(output_path), 'w') as replaced:
-            offset = 0
-            write_vertices_face(replaced, 'face', self.low_vertices, self.low_faces, offset)
-            offset += len(self.low_vertices)
-            write_vertices_face(replaced, 'eye_l', self.eye_l_vertices, self.eye_l_faces, offset)
-            offset += len(self.eye_l_vertices)
-            write_vertices_face(replaced, 'eye_r', self.eye_r_vertices, self.eye_r_faces, offset)
+            vo, vto = 0, 0
+            write_vertices_face(replaced, 'face', self.low_vertices, self.low_coordinates, self.low_faces, vo, vto)
+            vo += len(self.low_vertices); vto += len(self.low_coordinates)
+            write_vertices_face(replaced, 'eye_l', self.eye_l_vertices, self.eye_l_coordinates, self.eye_l_faces, vo, vto)
+            vo += len(self.eye_l_vertices); vto += len(self.eye_l_coordinates)
+            write_vertices_face(replaced, 'eye_r', self.eye_r_vertices, self.eye_r_coordinates, self.eye_r_faces, vo, vto)
             # offset += len(self.eye_r_vertices)
             # write_vertices_face(replaced, 'mouth', self.mouth_vertices, self.mouth_face, offset)
 
