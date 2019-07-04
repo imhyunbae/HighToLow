@@ -4,11 +4,14 @@ import numpy as np
 class Wrap:
     def __init__(self, input_path):
         high = open('./inputs/{}'.format(input_path), 'r').readlines()
-        self.high_vertices = [[float(element) for element in line[:-1].split(' ')[1:]] for line in high if line[:2] == 'v ']
+        self.high_vertices = [[float(element) for element in line[:-1].split(' ')[1:4]] for line in high if line[:2] == 'v ']
+        self.high_colors = [[float(element) for element in line[:-1].split(' ')[4:]] for line in high if line[:2] == 'v ']
+
         low = open('./datas/default_head/face.obj', 'r').readlines()
         self.low_vertices = [[float(element) for element in line[:-1].split(' ')[2:]] for line in low if line[:3] == 'v  ']
         self.low_coordinates = [[float(element) for element in line[:-1].split(' ')[1:]] for line in low if line[:3] == 'vt ']
         self.low_faces = [[[int(each) for each in index.split('/')] for index in line[:-2].split(' ')[1:]] for line in low if line[:2] == 'f ']
+        self.low_colors = [None] * len(self.low_vertices)
 
         eye_l = open('./datas/default_head/eyes_l.obj', 'r').readlines()
         self.eye_l_vertices = [[float(element) for element in line[:-1].split(' ')[2:]] for line in eye_l if line[:2] == 'v ']
@@ -37,6 +40,7 @@ class Wrap:
         """
         for low_index, high_index in self.high_low_map:
             self.low_vertices[low_index] = self.high_vertices[high_index]
+            self.low_colors[low_index] = self.high_colors[high_index]
 
     def ear(self, ear_index):
         """
@@ -194,8 +198,11 @@ class Wrap:
             self.low_faces.append(face)
 
     def save(self, output_path):
-        def write_vertices_face(output, name, vertices, coordinates, faces, vo, vto):
+        def write_vertices_face(output, name, vertices, colors, coordinates, faces, vertex_offset, coordinate_offset):
             # output.write('o {}\n'.format(name))
+
+            # if colors is not None:
+            #     vertices = np.add(vertices, colors, axis=1)
 
             [output.write('v  {} {} {}\n'.format(vertex[0], vertex[1], vertex[2])) for vertex in vertices]
             [output.write('vt {} {} {}\n'.format(coordinate[0], coordinate[1], coordinate[2])) for coordinate in coordinates]
@@ -203,25 +210,25 @@ class Wrap:
             for face in faces:
                 line = 'f'
                 for vertex_index, coordinate_index in face:
-                    line += ' {}/{}'.format(vertex_index + vo, coordinate_index + vto)
+                    line += ' {}/{}'.format(vertex_index + vertex_offset, coordinate_index + coordinate_offset)
                 output.write(line + '\n')
 
         with open('./outputs/{}'.format(output_path), 'w') as replaced:
             vo, vto = 0, 0
-            write_vertices_face(replaced, 'face', self.low_vertices, self.low_coordinates, self.low_faces, vo, vto)
+            write_vertices_face(replaced, 'face', self.low_vertices, self.low_colors, self.low_coordinates, self.low_faces, vo, vto)
             vo += len(self.low_vertices); vto += len(self.low_coordinates)
-            write_vertices_face(replaced, 'eye_l', self.eye_l_vertices, self.eye_l_coordinates, self.eye_l_faces, vo, vto)
+            write_vertices_face(replaced, 'eye_l', self.eye_l_vertices, None, self.eye_l_coordinates, self.eye_l_faces, vo, vto)
             vo += len(self.eye_l_vertices); vto += len(self.eye_l_coordinates)
-            write_vertices_face(replaced, 'eye_r', self.eye_r_vertices, self.eye_r_coordinates, self.eye_r_faces, vo, vto)
+            write_vertices_face(replaced, 'eye_r', self.eye_r_vertices, None, self.eye_r_coordinates, self.eye_r_faces, vo, vto)
             # offset += len(self.eye_r_vertices)
             # write_vertices_face(replaced, 'mouth', self.mouth_vertices, self.mouth_face, offset)
 
 
 if __name__=='__main__':
-    high_name = 'cjs.obj'
+    high_name = 'lsy.obj'
     wrap = Wrap(input_path=high_name)
     wrap.face()
-    wrap.ear(ear_index=8)
+    wrap.ear(ear_index=7)
     wrap.neck()
     wrap.inner_eyes()
     wrap.eye_balls()

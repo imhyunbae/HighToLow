@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d185b3fa-5e6e-4bd7-bfc7-39309c08b782" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uv_transfer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrap.blend" beforeDir="false" afterPath="$PROJECT_DIR$/wrap.blend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrap.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/wrap.blend1" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,72 +15,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <splitter split-orientation="horizontal" split-proportion="0.5">
-            <split-first>
-              <leaf>
-                <file pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/outputs/cjs.obj">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="2546">
-                        <caret line="314" column="56" lean-forward="true" selection-start-line="314" selection-start-column="56" selection-end-line="314" selection-end-column="56" />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-              </leaf>
-            </split-first>
-            <split-second>
-              <leaf>
-                <file pinned="false" current-in-tab="false">
-                  <entry file="file://$PROJECT_DIR$/datas/default_head/face.obj">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="311">
-                        <caret line="4072" column="29" selection-start-line="4080" selection-start-column="21" selection-end-line="4080" selection-end-column="29" />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-                <file pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/datas/default_head/neck.obj">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="816">
-                        <caret line="441" column="27" selection-start-line="441" selection-start-column="27" selection-end-line="441" selection-end-column="27" />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-              </leaf>
-            </split-second>
-          </splitter>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="205" column="85" selection-start-line="205" selection-start-column="85" selection-end-line="205" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datas/mouth.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,36 +27,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1384</find>
-      <find>-20.8235</find>
-      <find>91</find>
-      <find>919</find>
-      <find>-21.9095</find>
-      <find>4 0 1</find>
-      <find>1</find>
-      <find>3</find>
-      <find>32894</find>
-      <find>low_</find>
-      <find>11303</find>
-      <find>ear</find>
+      <find>g</find>
+      <find>0.732</find>
+      <find>0.610428</find>
+      <find>0.610</find>
+      <find>0/0</find>
+      <find>0.854</find>
+      <find>0.600</find>
+      <find>attach</find>
+      <find>0.500</find>
+      <find>low</find>
+      <find>vc_map</find>
+      <find>/8174</find>
       <find>f</find>
-      <find>eyes.t</find>
-      <find>in high_low_</find>
-      <find>ear_set</find>
-      <find>defa</find>
-      <find>default</find>
-      <find>jeong</find>
-      <find>left_ear</find>
-      <find>map.</find>
-      <find>map.t</find>
+      <find>/7</find>
+      <find>7/</find>
+      <find>1629</find>
+      <find>1636</find>
+      <find>8/</find>
+      <find>1629/</find>
+      <find>1628/</find>
+      <find>901</find>
+      <find>output_</find>
+      <find>uv_high</find>
       <find>low_eyelids_indices</find>
-      <find>low_index</find>
-      <find>scale</find>
       <find>low_eyelids</find>
-      <find>mouth_face</find>
-      <find>neck</find>
+      <find>ear_vertices</find>
       <find>vt</find>
-      <find>vt</find>
+      <find>vt 5315</find>
+      <find>989195</find>
+      <find>f</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,20 +68,24 @@
         <option value="$PROJECT_DIR$/jeongkeunwoo/jeongkeunwoo_face.obj" />
         <option value="$PROJECT_DIR$/outputs/choo.obj" />
         <option value="$PROJECT_DIR$/inputs/choo.obj" />
-        <option value="$PROJECT_DIR$/datas/high_low_map.txt" />
         <option value="$PROJECT_DIR$/datas/high.obj" />
         <option value="$PROJECT_DIR$/datas/high.ply" />
-        <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/ear_set/ear_0.obj" />
         <option value="$PROJECT_DIR$/datas/ear_border.txt" />
         <option value="$PROJECT_DIR$/datas/ear_inside.txt" />
         <option value="$PROJECT_DIR$/datas/default_head/face.obj" />
+        <option value="$PROJECT_DIR$/inputs/hjk.obj" />
+        <option value="$PROJECT_DIR$/datas/high_low_map.txt" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/new_uv_high.obj" />
+        <option value="$PROJECT_DIR$/uv_transfer.py" />
+        <option value="$PROJECT_DIR$/datas/uv_high.txt" />
+        <option value="$PROJECT_DIR$/util.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2601" />
+    <option name="x" value="2340" />
     <option name="y" value="-143" />
     <option name="width" value="1208" />
     <option name="height" value="1054" />
@@ -151,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,12 +111,6 @@
             <path>
               <item name="P9" type="b2602c69:ProjectViewProjectNode" />
               <item name="P9" type="462c0819:PsiDirectoryNode" />
-              <item name="datas" type="462c0819:PsiDirectoryNode" />
-              <item name="default_head" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="P9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="P9" type="462c0819:PsiDirectoryNode" />
               <item name="inputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -184,12 +122,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/util.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../model-viewer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -215,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.util">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="P9" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,9 +199,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="uv_transfer" type="PythonConfigurationType" factoryName="Python">
+      <module name="P9" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\imhyunbae\AppData\Local\Programs\Python\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uv_transfer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.util" />
+      <item itemvalue="Python.uv_transfer" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -278,19 +240,26 @@
       <workItem from="1557818434273" duration="27252000" />
       <workItem from="1557971038560" duration="31424000" />
       <workItem from="1558314691239" duration="144000" />
-      <workItem from="1558314913967" duration="18731000" />
+      <workItem from="1558314913967" duration="21225000" />
+      <workItem from="1558401982654" duration="16453000" />
+      <workItem from="1558488002496" duration="11302000" />
+      <workItem from="1558918183070" duration="47341000" />
+      <workItem from="1559549671808" duration="31000" />
+      <workItem from="1559549779976" duration="2866000" />
+      <workItem from="1559611596840" duration="13634000" />
+      <workItem from="1560315299684" duration="4787000" />
+      <workItem from="1561533713512" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77551000" />
+    <option name="totallyTimeSpent" value="176787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-143" width="1216" height="1896" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22664359" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22404844" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3295519" />
@@ -299,9 +268,9 @@
       <window_info anchor="bottom" id="Python Console" order="4" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.3295519" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.23993194" />
-      <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.39931935" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3289166" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3295519" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39875212" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -320,8 +289,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>202</line>
-          <option name="timeStamp" value="102" />
+          <line>134</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/uv_transfer.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -332,13 +311,54 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="normal[512]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P9$util.coverage" NAME="util Coverage Results" MODIFIED="1558051909266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P9$main.coverage" NAME="main Coverage Results" MODIFIED="1558337166896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P9$util.coverage" NAME="util Coverage Results" MODIFIED="1560318878006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P9$main.coverage" NAME="main Coverage Results" MODIFIED="1559627348684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P9$uv_transfer.coverage" NAME="uv_transfer Coverage Results" MODIFIED="1559632200608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>high_index == 16</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>high_index == 4</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>vertex_index == 8172</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>each_index == 448</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>each_index</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>each[0] == 448</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>each == 448</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mouth_face[0] &gt; 600</expression-string>
         <language-id>Python</language-id>
@@ -357,72 +377,80 @@
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>[[int(index.split('/')[0]) for index in line[:-2].split(' ')[1:]] for line in eye_l if line[:2] == 'f ']</expression-string>
+        <expression-string>normal[512]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[[float(element) for element in line[:-1].split(' ')[2:]] for line in eye_l if line[:2] == 'v ']</expression-string>
+        <expression-string>normal[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[line[:-1].split(' ')[2:] for line in eye_l if line[:2] == 'v ']</expression-string>
+        <expression-string>normal[1920]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[line[:-1].split(' ')[1:] for line in eye_l if line[:2] == 'v ']</expression-string>
+        <expression-string>normal[192,192]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.std([high_eyelid[0] for high_eyelid in high_eyelids])</expression-string>
+        <expression-string>normal[128,192]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.std([low_eyelid[0] for low_eyelid in low_eyelids])</expression-string>
+        <expression-string>normal[128,64]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.std([low_eyelid[0] for low_eyelid in low_eyelids)</expression-string>
+        <expression-string>normal[128,128]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.std([high_eyelid[0] for high_eyelid in high_eyelids if high_eyelid[0] &gt; 0])</expression-string>
+        <expression-string>uv[27178]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.std([low_eyelid[0] for low_eyelid in low_eyelids if low_eyelid[0] &gt; 0])</expression-string>
+        <expression-string>uv[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.std([high_eyelid for high_eyelid in high_eyelids if high_eyelid[0] &gt; 0])</expression-string>
+        <expression-string>uv[40463]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>[-54.096531    42.15443235  81.91565417]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[-49.9427283   38.13976239  85.81651777]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[-55.64654417  44.23201573  78.92492522]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[-53.05121704  40.81421202  83.1305821 ]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/linalg/misc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/spatial/distance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -430,9 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jeongkeunwoo/jeongkeunwoo_face.obj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jeongkeunwoo/jeongkeunwoo_face.obj" />
     <entry file="file://$PROJECT_DIR$/datas/low_test.ply" />
     <entry file="file://$PROJECT_DIR$/datas/low.ply">
       <provider selected="true" editor-type-id="text-editor">
@@ -441,34 +467,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default_head/face.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4104" selection-start-line="4104" selection-end-line="4104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/high.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="53158" column="9" selection-start-line="53158" selection-start-column="9" selection-end-line="53158" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ear_set/ear_0.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/default_head/face.obj" />
+    <entry file="file://$PROJECT_DIR$/ear_set/ear_0.obj" />
     <entry file="file://$PROJECT_DIR$/datas/low.obj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -490,32 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/ear_border.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default_head/neck.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="850" column="2" selection-start-line="850" selection-end-line="850" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputs/hoin.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2804123" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/default_head/neck.obj" />
     <entry file="file://$PROJECT_DIR$/inputs/choo.obj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2119359">
@@ -531,16 +506,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datas/eyes.txt" />
-    <entry file="file://$PROJECT_DIR$/datas/face_neck_map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/inner_eyes.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -548,31 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/ear_inside.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/high_low_map.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="996">
-          <caret line="137" column="9" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wrap.obj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="4005" column="20" lean-forward="true" selection-start-line="4005" selection-start-column="20" selection-end-line="4005" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/mouth.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -597,31 +541,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputs/cjs.obj">
+    <entry file="file://$PROJECT_DIR$/datas/default_head/mouth.obj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2546">
-          <caret line="314" column="56" lean-forward="true" selection-start-line="314" selection-start-column="56" selection-end-line="314" selection-end-column="56" />
+        <state relative-caret-position="-34955" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/models/models/output/cjs_0_base.jpg/model_vertex_color.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341069">
+          <caret line="17951" column="57" selection-start-line="17951" selection-start-column="57" selection-end-line="17951" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datas/default_head/face.obj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="4072" column="29" selection-start-line="4080" selection-start-column="21" selection-end-line="4080" selection-end-column="29" />
+        <state relative-caret-position="418">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputs/hjk.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="94715" column="3" selection-start-line="94715" selection-start-column="3" selection-end-line="94715" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/high.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="53161" column="2" selection-start-line="53161" selection-end-line="53161" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputs/hoin.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="106299" column="2" selection-start-line="106299" selection-end-line="106299" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/face_after_attach.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="1915" column="4" selection-start-line="1915" selection-start-column="4" selection-end-line="1915" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/high_low_map.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1201">
+          <caret line="1530" selection-start-line="1530" selection-end-line="1530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="1738" lean-forward="true" selection-start-line="1738" selection-end-line="1738" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uv_high.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/uv_high_excluded.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputs/jung.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.obj" />
+    <entry file="file://$PROJECT_DIR$/datas/eyelids.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/ear_inside.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datas/default_head/neck.obj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="441" column="27" selection-start-line="441" selection-start-column="27" selection-end-line="441" selection-end-column="27" />
+        <state relative-caret-position="208">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/ear_border.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/face_neck_map.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/inner_eyes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/mouth.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="205" column="85" selection-start-line="205" selection-start-column="85" selection-end-line="205" selection-end-column="85" />
+        <state relative-caret-position="201">
+          <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_uv_high.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="155790" column="37" lean-forward="true" selection-start-line="155790" selection-start-column="37" selection-end-line="155790" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/high_uv.txt" />
+    <entry file="file://$PROJECT_DIR$/inputs/lsy.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12205" column="51" selection-start-line="12205" selection-start-column="51" selection-end-line="12205" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/lsy_c.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="7756" column="58" lean-forward="true" selection-start-line="7756" selection-start-column="58" selection-end-line="7756" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_uv_low.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3220" column="13" selection-start-line="3220" selection-start-column="13" selection-end-line="3220" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputs/cjs.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="28766" selection-start-line="28766" selection-end-line="28766" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/uv_high.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="27150" column="17" selection-end-line="53149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uv_transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/cjs.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="6224" column="27" selection-start-line="6224" selection-start-column="27" selection-end-line="6224" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/scipy/misc/pilutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="170" column="4" selection-start-line="170" selection-start-column="4" selection-end-line="170" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="103" column="36" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="36" />
+          <folding>
+            <element signature="e#6743#6752#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
